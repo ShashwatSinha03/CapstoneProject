@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Staatliches";
+  src: url(staatliches/Staatliches-Regular.ttf);
+}
+
+@font-face {
+  font-family: "redhatdisplay";
+  src: url(redhatdisplay/RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "InriaSans";
+  src: url(InriaSans/TTF/InriaSans-Light.ttf);
+}
+
+body{
+  margin: 0 20px;
+  width: auto;
+}
+
+.navbar{
+  height: 60px;
+  width: auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.header-title{
+  font-family: "Staatliches";
+  font-size: 25px;
+  cursor: default;
+}
+
+.header-buttons{
+  display: flex;
+  font-family: "redhatdisplay";
+  margin: 5px;
+}
+
+.btn{
+  margin: 5px;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #939393;
+  color: rgb(24, 24, 24);
+  transition-duration: 0.35s;
+}
+
+.divider{
+  margin: 5px;
+  height: 3px;
+  background-color: #333;
+}
+
+.title{
+  font-family: "redhatdisplay";
+  font-size: 50px;
+  font-weight: 500px;
+  text-align: center;
+}
+
+.title-image{
+  width:100%;
+  height:auto;
+}
+
