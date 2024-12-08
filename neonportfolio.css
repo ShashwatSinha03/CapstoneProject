@@ -78,26 +78,71 @@ body{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 48px;
- }
+}
 
- .grid-img{
+.grid-img{
   height: auto;
   width: 100%;
   border-radius: 8px;
- }
+}
 
- .cap{
+.cap{
   font-family: "InriaSans";
   font-weight: bold;
   margin-top: 8px;
   font-size: clamp(14px, 2vw, 20px);
   
- }
+}
 
- .des{
+.des{
   color: rgba(255, 255, 255, 0.60);
   font-family: "InriaSans";
   font-weight: 400;
   line-height: 0;
   font-size: clamp(13px, 1.8vw, 17px);
- }
+}
+ 
+.blackbox{
+  margin: 48px 0;
+  background-color: rgb(20, 20, 20);
+  padding: 254px 96px;
+  border-radius: 8px;
+  display: flex;            
+  flex-direction: column;   
+  align-items: center;      
+  justify-content: center;  
+  text-align: center;
+}
+ 
+.explore-head{
+  font-family: "redhatdisplay";
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: -1.28px;
+  line-height: 68px;
+  margin-bottom: 16px;
+}
+
+ .explore-des{
+  text-align: center;
+  font-family: "InriaSans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.12px;
+}
+
+ .explore-button{
+  border:none;
+  background-color: red;
+  padding: 12px 24px;
+  color: white;
+  font-family: "InriaSans";
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  justify-content: center;
+  align-content: center;
+}
