@@ -102,10 +102,10 @@ body{
   font-size: clamp(13px, 1.8vw, 17px);
 }
  
-.blackbox{
+.blackbox {
   margin: 48px 0;
   background-color: rgb(20, 20, 20);
-  padding: 254px 96px;
+  padding: 10% 5%;
   border-radius: 8px;
   display: flex;            
   flex-direction: column;   
@@ -113,11 +113,11 @@ body{
   justify-content: center;  
   text-align: center;
 }
- 
+
 .explore-head{
   font-family: "redhatdisplay";
   text-align: center;
-  font-size: 64px;
+  font-size:clamp(2rem, 5vw, 4rem);
   font-weight: 500;
   letter-spacing: -1.28px;
   line-height: 68px;
@@ -127,7 +127,7 @@ body{
  .explore-des{
   text-align: center;
   font-family: "InriaSans";
-  font-size: 24px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 400;
   line-height: 32px;
   letter-spacing: -0.12px;
@@ -136,13 +136,57 @@ body{
  .explore-button{
   border:none;
   background-color: red;
-  padding: 12px 24px;
+  padding: clamp(0.5rem, 1.5vw, 1rem) clamp(1rem, 3vw, 2rem);
   color: white;
   font-family: "InriaSans";
   border-radius: 8px;
-  font-size: 20px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-weight: 700;
   line-height: 24px;
   justify-content: center;
   align-content: center;
+}
+
+.about{
+  display: flex;
+  padding: 96px 0;
+  align-items: flex-start;
+  gap: 96px;
+  align-self: stretch;
+}
+
+.abtme{
+  display: flex;
+  padding: 48px 0px;
+  align-items: flex-start;
+  gap: clamp(16px, 4vw, 48px);
+}
+
+.abtme-head{
+  color: #FFF;
+  font-family: "redhatdisplay";
+  font-size: clamp(24px, 4vw, 48px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: clamp(28px, 5vw, 52px);
+  letter-spacing: -0.48px;
+  height: auto;
+  width: 100%;
+}
+
+.abtme-des{
+  display: flex;
+  padding-top: clamp(8px, 2vw, 16px);
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.abtme-desc{
+  color: #FFF;
+  font-family: "InriaSans";
+  font-size: clamp(16px, 3vw, 24px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: clamp(24px, 4vw, 32px);
+  letter-spacing: -0.12px;
 }
