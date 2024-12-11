@@ -149,13 +149,17 @@ body{
 
 .about{
   display: flex;
-  padding: 96px 0;
+  padding: 24px 0;
   align-items: flex-start;
-  gap: 96px;
+  gap: 24px;
   align-self: stretch;
+  margin: 0;
 }
 
 .abtme{
+  margin: 20px 0;
+  background-color: rgb(20, 20, 20);
+  border-radius: 8px;
   display: flex;
   padding: 48px 0px;
   align-items: flex-start;
@@ -170,8 +174,7 @@ body{
   font-weight: 500;
   line-height: clamp(28px, 5vw, 52px);
   letter-spacing: -0.48px;
-  height: auto;
-  width: 100%;
+  margin-left: 20px;
 }
 
 .abtme-des{
@@ -182,11 +185,34 @@ body{
 }
 
 .abtme-desc{
-  color: #FFF;
   font-family: "InriaSans";
   font-size: clamp(16px, 3vw, 24px);
   font-style: normal;
   font-weight: 400;
   line-height: clamp(24px, 4vw, 32px);
   letter-spacing: -0.12px;
+}
+
+.passion{
+  display: flex;
+  padding: 96px 0;
+  align-items: flex-start;
+  background-color: rgb(20, 20, 20);
+  border-radius: 8px;
+  margin: 48px 0;
+}
+
+.passion-text{
+  font-family: "redhatdisplay";
+  font-size: clamp(24px, 4vw, 48px);
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.spacer{
+  height: auto;
+  width: 200%;
 }
