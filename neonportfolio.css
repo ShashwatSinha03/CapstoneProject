@@ -221,3 +221,37 @@ body{
   height: auto;
   width: 200%;
 }
+
+.card{
+  height: auto;
+  padding-right: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(25px,2vw,12px);
+  border: 1px solid #FFFFFF3D;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(20, 20, 20, 0.20) 25%, rgba(193, 29, 29, 0.09) 50%);
+}
+
+
+.card-img{
+  height: 100%;
+  width: auto;
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+.proj-title{
+  font-family: "redhatdisplay";
+  font-size: clamp(24px,1vw,48px);
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
