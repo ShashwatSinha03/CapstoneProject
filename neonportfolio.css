@@ -31,6 +31,7 @@ body{
   font-family: "Staatliches";
   font-size: 25px;
   cursor: default;
+  
 }
 
 .header-buttons{
@@ -60,11 +61,13 @@ body{
 
 .title-head{
   font-family: "redhatdisplay";
-  font-size: 120px;
+  font-size: clamp(120px,2vw,90px);
   font-weight: 500px;
   word-wrap: break-word;
   text-align: center;
   margin-bottom: 96px;
+  height: auto;
+  width: 100%;
 }
 
 .title-image{
@@ -182,6 +185,8 @@ body{
   padding-top: clamp(8px, 2vw, 16px);
   flex-direction: column;
   align-items: flex-start;
+  margin-left: 200px;
+  margin-right: 50px;
 }
 
 .abtme-desc{
