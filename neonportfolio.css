@@ -61,9 +61,8 @@ body{
 
 .title-head{
   font-family: "redhatdisplay";
-  font-size: clamp(120px,2vw,90px);
-  font-weight: 500px;
-  word-wrap: break-word;
+  font-size: clamp(100px, 5vw, 120px);
+  font-weight: 500;
   text-align: center;
   margin-bottom: 96px;
   height: auto;
@@ -223,35 +222,95 @@ body{
 }
 
 .card{
-  height: auto;
-  padding-right: 30px;
-  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: clamp(25px,2vw,12px);
-  border: 1px solid #FFFFFF3D;
+  background: linear-gradient(180deg, rgba(20, 20, 20) 20%, rgb(80, 26, 26) 40%, rgba(20, 20, 20));
   border-radius: 28px;
-  background: linear-gradient(180deg, rgba(20, 20, 20, 0.20) 25%, rgba(193, 29, 29, 0.09) 50%);
+  margin-bottom: 50px;
 }
 
-
 .card-img{
-  height: 100%;
-  width: auto;
-  border-radius: 28px;
-  object-fit: cover;
+  width: 40%;
+  height: auto;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+}
+
+.proj-matter{
+  margin-left: 25px;
+  padding-top: clamp(250px, 2vw, 350px);
+  padding-bottom: clamp(250px, 2vw, 350px);
 }
 
 .proj-title{
   font-family: "redhatdisplay";
-  font-size: clamp(24px,1vw,48px);
+  font-size: clamp(24px, 4vw, 48px);
   font-weight: 500;
   line-height: 52px;
   letter-spacing: -0.01em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  margin-bottom: 16px;
 }
 
+.proj-des{
+  font-family: "InriaSans";
+  font-size: clamp(16px, 3vw, 24px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: clamp(24px, 4vw, 32px);
+  letter-spacing: -0.12px;
+}
 
+.serv{
+  background-color: rgb(20, 20, 20);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.serv-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.serv-img{
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.serv-title{
+  font-family: "redhatdisplay";
+  font-size: 36px;
+}
+
+.serv-item-head{
+  font-family: "redhatdisplay";
+  text-align: center;
+  font-size:clamp(0.24rem, 5vw, 2rem);
+  letter-spacing: -1.28px;
+  margin-bottom: 1px;
+}
+
+.serv-item-des{
+  text-align: center;
+  font-family: "InriaSans";
+  font-size: clamp(0.1rem, 2.5vw, 1.25rem);
+  line-height: 32px;
+  letter-spacing: -0.12px;
+}
+
+.serv-btn{
+  border:none;
+  background-color: red;
+  padding: clamp(0.1rem, 1.5vw, 0.5rem) clamp(0.5rem, 3vw, 1rem);
+  color: white;
+  font-family: "InriaSans";
+  border-radius: 8px;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
+  line-height: 24px;
+  justify-content: center;
+  align-content: center;
+}
