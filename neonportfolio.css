@@ -45,8 +45,8 @@ body{
 
 .btn:hover{
   cursor: pointer;
-  background-color: #939393;
-  color: rgb(24, 24, 24);
+  background-color: #555555;
+  color: rgb(27, 27, 27);
   transition-duration: 0.35s;
 }
 
@@ -66,12 +66,20 @@ body{
   width: 100%;
 }
 
+
 .title-image{
   width:100%;
+  justify-content: center;
   height:auto;
   align-self: center;
   margin-bottom: 96px;
   border-radius: 28px;
+  transition: 0.75s ease;
+}
+
+.title-image:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgba(165,102,196,1);
 }
 
  .grid{
@@ -84,6 +92,50 @@ body{
   height: auto;
   width: 100%;
   border-radius: 8px;
+  transition: 0.75s ease;
+}
+
+.one:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(130, 40, 74);
+}
+
+.two:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(34, 131, 87);
+}
+
+.three:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(160, 39, 75);
+}
+
+.four:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(33, 82, 134);
+}
+
+.five:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(77, 57, 142);
+}
+
+.six:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(153, 36, 155);
+}
+
+.seven:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(162, 55, 29);
+}
+.eight:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(33, 82, 134);
+}
+.nine:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(65, 121, 180);
 }
 
 .cap{
@@ -145,6 +197,13 @@ body{
   line-height: 24px;
   justify-content: center;
   align-content: center;
+  transition: 0.35s;
+}
+
+.explore-button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 0px 0px 55px 11px rgb(99, 33, 33)
 }
 
 .about{
@@ -277,6 +336,22 @@ body{
   height: auto;
   width: 100%;
   border-radius: 8px;
+  transition: 0.5s;
+}
+
+.serv-one:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(37, 81, 132);
+}
+
+.serv-two:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(89, 37, 149);
+}
+
+.serv-three:hover{
+  transform: scale(0.9);
+  box-shadow: 0px 0px 55px 11px rgb(53, 29, 161);
 }
 
 .serv-title{
@@ -311,6 +386,13 @@ body{
   line-height: 24px;
   justify-content: center;
   align-content: center;
+  transition: 0.35s;
+}
+
+.serv-btn:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 0px 0px 55px 11px rgb(99, 33, 33)
 }
 
 .end{
@@ -367,7 +449,6 @@ body{
 }
 
 .about{
-  margin-left;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -377,6 +458,11 @@ body{
   border: 2px solid #333;
   background-color: #171717;
   border-radius: 8px;
+  transition: 0.35s;
+}
+
+.client-card:hover{
+  box-shadow: 0px 0px 55px 11px rgb(75, 75, 75);
 }
 
 .profile{
