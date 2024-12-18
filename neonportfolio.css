@@ -64,8 +64,12 @@ body{
   margin-bottom: 96px;
   height: auto;
   width: 100%;
+  transition: 0.5s;
 }
 
+.title-head:hover{
+  text-shadow: 4px 3px 6px rgba(100,100,101,0.77);
+}
 
 .title-image{
   width:100%;
