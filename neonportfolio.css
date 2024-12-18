@@ -19,19 +19,16 @@ body{
 }
 
 .navbar{
-  height: 60px;
+  height: 100%;
   width: auto;
   display:flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10px;
 }
 
 .header-title{
   font-family: "Staatliches";
-  font-size: 25px;
-  cursor: default;
-  
+  font-size: 25px; 
 }
 
 .header-buttons{
@@ -76,6 +73,7 @@ body{
   margin-bottom: 96px;
   border-radius: 28px;
 }
+
  .grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -313,4 +311,139 @@ body{
   line-height: 24px;
   justify-content: center;
   align-content: center;
+}
+
+.end{
+  background-color: rgb(20, 20, 20);
+  padding: 30px;
+  margin: 48px 0;
+  border-radius: 8px;
+  display: flex;
+}
+
+.spacer{
+  width: 50%;
+  height: auto;
+}
+
+.end-desc{
+  font-family: "InriaSans";
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.12px;
+  text-align: right;
+}
+
+.client-review{
+  background-color: rgb(20, 20, 20);
+  padding: 24px 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.ques{
+  font-family: "redhatdisplay";
+  font-size: clamp(40px, 5vw, 35px);;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.cards{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between;
+  gap: clamp(30px, 2vw, 10px);
+}
+
+.prof{
+  display: flex;
+  align-items: center;
+}
+
+.about{
+  margin-left;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.client-card{
+  border: 2px solid #333;
+  background-color: #171717;
+  border-radius: 8px;
+}
+
+.profile{
+  border-radius: 50%;
+  padding: 15px;
+  width: 20%;
+  padding: 0 20;
+  height: auto;
+  margin-right: 20px;
+}
+
+.client-name{
+  font-family: "InriaSans";
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 600;
+  line-height: 0px;
+  text-align: left;
+}
+
+.client-position{
+  font-family: "InriaSans";
+  font-size: clamp(0.5rem, 2vw, 1.25rem);
+  font-weight: 400;
+  color: #4a4a4a;
+  text-align: left;
+
+}
+.description{
+  font-family: "InriaSans";
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight:400;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.line{
+  border: 1px solid #4a4a4a;
+}
+
+.prof2{
+  display: flex;
+  justify-self: left;
+  margin: 0 30px 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.contactme{
+  font-family: "InriaSans";
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  padding: 5px 10px;
+  background-color: rgb(21, 21, 21);
+  border: 2px solid #363636;
+  border-radius: 8px;
+  color: white;
+}
+
+.copyright{
+  font-family: "redhatdisplay";
+  font-size: clamp(0.5rem, 2vw, 1.25rem);
+  color: #4a4a4a;
+  text-align: right;
 }
