@@ -529,6 +529,12 @@ footer {
   border: 2px solid #363636;
   border-radius: 8px;
   color: white;
+  transition: 0.35s ease;
+}
+
+.contactme:hover{
+  background-color: red;
+  color: white;
 }
 
 .copyright{
